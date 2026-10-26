@@ -52,4 +52,17 @@ python -m pytest
 
 ## Estado
 
-Fase 0: preparación del repositorio. Aún no hay funcionalidades implementadas.
+Fase 1 completada: el núcleo (`nucleo/`) está implementado y probado, con 158 pruebas que pasan.
+
+| Módulo | Contenido |
+|---|---|
+| `tipos.py` | Tipos de datos inmutables del sistema |
+| `reglas_multa.py` | Días de retraso y cálculo de multas |
+| `reglas_prestamo.py` | Solicitud, registro y devolución de préstamos |
+| `reglas_catalogo.py` | Búsqueda de libros y estado resultante |
+| `reglas_reserva.py` | Reservas y cola de espera |
+| `permisos.py` | Permisos por rol |
+| `reglas_usuario.py` | Validación de registro, roles y estado de cuenta |
+| `autenticacion.py` | Cifrado y verificación de contraseñas |
+
+Pendiente: capa de datos (`almacen/`, Fase 2) e interfaz web (`interfaz/`, Fase 3).
